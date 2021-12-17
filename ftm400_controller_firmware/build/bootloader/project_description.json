@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/oliver/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/oliver/Projects/Ham_Radio_Projects/FTM400_Controller/ftm400_controller_firmware/build/bootloader",
+    "config_file":        "/home/oliver/Projects/Ham_Radio_Projects/FTM400_Controller/ftm400_controller_firmware/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "HEAD-HASH-NOTFOUND",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/oliver/esp/esp-idf/components/efuse/Kconfig;/home/oliver/esp/esp-idf/components/esp32/Kconfig;/home/oliver/esp/esp-idf/components/esp_common/Kconfig;/home/oliver/esp/esp-idf/components/esp_hw_support/Kconfig;/home/oliver/esp/esp-idf/components/esp_system/Kconfig;/home/oliver/esp/esp-idf/components/freertos/Kconfig;/home/oliver/esp/esp-idf/components/log/Kconfig;/home/oliver/esp/esp-idf/components/newlib/Kconfig;/home/oliver/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/oliver/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/oliver/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/oliver/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/oliver/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/oliver/esp/esp-idf/components/bootloader", "/home/oliver/esp/esp-idf/components/bootloader_support", "/home/oliver/esp/esp-idf/components/efuse", "/home/oliver/esp/esp-idf/components/esp32", "/home/oliver/esp/esp-idf/components/esp_common", "/home/oliver/esp/esp-idf/components/esp_hw_support", "/home/oliver/esp/esp-idf/components/esp_rom", "/home/oliver/esp/esp-idf/components/esp_system", "/home/oliver/esp/esp-idf/components/esptool_py", "/home/oliver/esp/esp-idf/components/freertos", "/home/oliver/esp/esp-idf/components/hal", "/home/oliver/esp/esp-idf/components/log", "/home/oliver/esp/esp-idf/components/bootloader/subproject/main", "/home/oliver/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/oliver/esp/esp-idf/components/newlib", "/home/oliver/esp/esp-idf/components/partition_table", "/home/oliver/esp/esp-idf/components/soc", "/home/oliver/esp/esp-idf/components/spi_flash", "/home/oliver/esp/esp-idf/components/xtensa", "" ]
+}
